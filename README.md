@@ -1,2 +1,1 @@
-# MedSimplify
-demo web application 
+
