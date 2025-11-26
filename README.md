@@ -1,4 +1,4 @@
-# 🏥 MediSimplify
+# MediSimplify
 
 > **Analize medicale, traduse pe înțelesul tuturor.**
 
@@ -6,18 +6,18 @@ MediSimplify este o aplicație backend care ajută pacienții să înțeleagă r
 
 ---
 
-### 🛠️ Tech Stack
+###  Tech Stack
 Proiect construit cu tehnologii moderne, standard în industrie (2025):
 
-* ☕ **Java 21** - Limbajul principal.
-* 🍃 **Spring Boot 3** - Framework pentru REST API.
-* 📄 **Apache PDFBox** - Pentru procesarea și citirea fișierelor PDF.
-* 🧠 **Gemini API** - Integrare LLM pentru simplificarea textului.
-* 📬 **Postman** - Pentru testarea endpoint-urilor.
+**Java 21** - Limbajul principal.
+**Spring Boot 3** - Framework pentru REST API.
+**Apache PDFBox** - Pentru procesarea și citirea fișierelor PDF.
+**Gemini API** - Integrare LLM pentru simplificarea textului.
+**Postman** - Pentru testarea endpoint-urilor.
 
 ---
 
-### ⚙️ Cum funcționează?
+### Cum funcționează?
 
 1.  **Upload:** Utilizatorul trimite un fișier PDF prin endpoint-ul `/api/analize/upload`.
 2.  **Procesare:** Aplicația extrage textul brut din document.
@@ -26,11 +26,10 @@ Proiect construit cu tehnologii moderne, standard în industrie (2025):
 
 ---
 
-### 📚 Ce am învățat din acest proiect
+### Ce am învățat din acest proiect
 * Cum să construiesc un **REST API** robust cu Spring Boot.
 * Manipularea fișierelor (**MultipartFile**) și extragerea de date.
 * Cum să integrez un serviciu extern (**AI API**) într-o aplicație Java.
 * Principii de **Clean Code** și separarea logicii (Controller vs Service).
 
----
-*Proiect realizat pentru portofoliu personal - 2025.*
+
