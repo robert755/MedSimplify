@@ -1,8 +1,8 @@
-# MediSimplify
+# MedSimplify
 
 > **Analize medicale, traduse pe înțelesul tuturor.**
 
-MediSimplify este o aplicație backend care ajută pacienții să înțeleagă rezultatele analizelor de laborator. Încarci PDF-ul, iar aplicația folosește **AI** pentru a explica termenii medicali simplu și clar.
+MedSimplify este o aplicație backend care ajută pacienții să înțeleagă rezultatele analizelor de laborator. Încarci PDF-ul, iar aplicația folosește **AI** pentru a explica termenii medicali simplu și clar.
 
 ---
 
