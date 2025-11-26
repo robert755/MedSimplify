@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediSimplify - Analize Explicate</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="main-container">
+    <header>
+        <div class="logo">MediSimplify</div>
+        <p class="subtitle">Încarcă buletinul de analize (PDF) și eu îți explic mai simplu.</p>
+    </header>
+
+    <div class="card upload-card">
+        <div class="upload-area" id="drop-area">
+            <div class="icon">📄</div>
+            <h3>Alege fișierul PDF</h3>
+            <p id="fileName">Niciun fișier selectat</p>
+            <input type="file" id="fileInput" accept=".pdf" hidden>
+        </div>
+
+        <button id="analyzeBtn" class="btn-primary" disabled>Analizează Documentul</button>
+    </div>
+
+    <div id="loadingSection" class="hidden">
+        <div class="spinner"></div>
+        <p>Analizele sunt în curs de citire...<br>Poate dura câteva secunde.</p>
+    </div>
+
+    <div id="resultSection" class="card result-card hidden">
+        <div class="result-header">
+            <h3>Explicația</h3>
+        </div>
+        <div id="resultText" class="result-content">
+        </div>
+        <div class="disclaimer">
+            <strong>Important:</strong> Această aplicație este un proiect demonstrativ. Informațiile sunt generate de AI și pot fi inexacte. Consultați întotdeauna un medic specialist!
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
